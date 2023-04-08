@@ -38,7 +38,22 @@ a {
 }
 .service-container {
   display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 .box {
   border: 1px solid red;
+}
+#main {
+  display: flex;
+}
+aside {
+  flex: 0 0 20vw;
+  background-color: darkgray;
+}
+footer {
+  background-color: darkslategray;
+  padding: 15px;
+  color: wheat;
+  text-align: center;
 }
