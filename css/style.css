@@ -9,11 +9,14 @@ body {
   display: flex;
 }
 header {
-  background-color: yellowgreen;
+  background-color: darkslategray;
   color: blue;
   display: flex;
   gap: 10px;
   align-items: center;
+}
+header a {
+  color: white;
 }
 header ul {
   list-style: none;
@@ -21,6 +24,7 @@ header ul {
 }
 #log {
   margin: auto;
+  font-size: 40px;
 }
 a {
   text-decoration: none;
@@ -31,4 +35,10 @@ a {
 }
 #social-link li {
   padding: 10px;
+}
+.service-container {
+  display: flex;
+}
+.box {
+  border: 1px solid red;
 }
