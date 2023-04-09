@@ -43,6 +43,7 @@ a {
 }
 .box {
   border: 1px solid red;
+  margin-bottom: 15px;
 }
 #main {
   display: flex;
@@ -65,6 +66,11 @@ footer {
 aside ul {
   padding: 0;
   list-style: none;
+  color: white;
+}
+.call {
+  background-color: gray;
+  padding: 8px 13px;
   color: white;
 }
 aside ul a {
